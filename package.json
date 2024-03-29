@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-httptofile-plugin",
+  "version": "1.1.0",
+  "description": "Small http server that receives data by http and writes it to file",
+  "keywords": ["homebridge-plugin", "temperature", "sensor", "logging"],
+  "engines": {
+    "node": ">=14.17.0",
+    "homebridge": ">=1.3.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AMSHL/homebridge-httptofile-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AMSHL/homebridge-httptofile-plugin/issues"
+  },
+  "homepage": "https://github.com/AMSHL/homebridge-httptofile-plugin#readme",
+  "author": "Anatoly Shlom",
+  "license": "MIT",
+  "peerDependencies": {
+    "homebridge": "^1.7.0"
+  },
+  "dependencies": {}
+}
+
