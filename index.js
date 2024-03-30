@@ -52,7 +52,9 @@ class TemperatureSensorLogger {
             let temperature = data.temperature.toString();
 
             if (this.shouldSanitiseNumber) {
-              let sanitizedTemperature = temperature.match(/-?\d+(\.\d+)?/);
+              let sanitizedTemperature = temperature
+                ?.replace(',','.')
+                ?.match(/-?\d+(\.\d+)?/);
               if (!sanitizedTemperature) {
                 throw new Error("Temperature data is not a valid number.");
               }

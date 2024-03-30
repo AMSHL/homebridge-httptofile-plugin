@@ -1,6 +1,6 @@
 {
   "name": "homebridge-httptofile-plugin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Small http server that receives data by http and writes it to file",
   "keywords": ["homebridge-plugin", "temperature", "sensor", "logging"],
   "engines": {
